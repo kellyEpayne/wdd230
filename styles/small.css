@@ -1,0 +1,24 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+}
+
+header img{
+    border-radius: 8px;
+}
+
+footer{
+    background-color: midnightblue;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+}
