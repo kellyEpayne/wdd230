@@ -4,6 +4,10 @@ header{
     text-align: center;
 }
 
+main{
+    font-family: 'Raleway', sans-serif;;
+}
+
 footer{
     background-color: black;
     color: white;
