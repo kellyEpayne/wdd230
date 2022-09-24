@@ -1,0 +1,9 @@
+@media only screen and (min-width: 65em){
+    .gridarea{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .spanbaby{
+        grid-column: auto;
+    }
+}

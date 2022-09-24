@@ -1,0 +1,39 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img{
+    border: 2px solid #000;
+    border-radius: 8px;
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div{
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.gridarea{
+    display: grid;
+    grid-gap: 16px;
+
+}
+
+.principle{
+    margin-top: 0px;
+    padding: 8px;
+    background-color: darkslategray;
+    color: white;
+}
