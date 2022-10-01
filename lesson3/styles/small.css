@@ -1,0 +1,51 @@
+main{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: darkblue;
+    color: yellow;
+    padding: 0.75rem;
+}
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    color: yellow;
+}
+
+.navdemo{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.75rem;
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkblue;
+    color: yellow;
+    padding: 0.75rem;
+}
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    color: white;
+}
+
+main div{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+img{
+    max-width: 90%;
+}
+
+.highlight{
+    background-color: lightgray;
+}

@@ -1,0 +1,14 @@
+@media only screen and (min-width: 65em){
+
+    body{
+        max-width: 1000px;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main div:nth-child(3){
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,42 @@
+@media only screen and (min-width: 32.5em){
+
+    body{
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
+    nav a{
+        flex: 1 1 auto;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main div:nth-child(3){
+        grid-column: span 2
+    }
+
+    .target-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .target-grid div:nth-child(1){
+        grid-column: span 2;
+    }
+
+    .target-grid div:nth-child(3){
+        grid-column: span 1;
+    }
+    .target-grid div:nth-child(4){
+        grid-column: span 2;
+    }
+}
