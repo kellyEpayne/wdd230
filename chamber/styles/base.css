@@ -1,0 +1,141 @@
+main{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 0.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+main div{
+    border: 0.05em black solid;
+    /*Place holding space */
+    padding: 1em 1em 10em 1em;
+}
+
+.grid6{
+    display: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    column-gap: 10px;
+    background-color: darkblue;
+    color: yellow;
+    align-items: center;
+    padding: 5px;
+}
+
+header h1, header h2{
+    font-size: 1.5em;
+}
+
+header h2{
+    font-size: 1em;
+}
+
+.socials{
+    justify-self: end;
+}
+
+.socials img{
+    width: 25px;
+    height: 25px;
+}
+
+.currentdate{
+    border: 2px black solid;
+    background-color: darkred;
+    text-align: center;
+    grid-column: span 4;
+}
+
+header img{
+    width: 75px;
+    height: 75px;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkblue;
+    color: yellow;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.copyright{
+    margin-top: 1em;
+    border-top: 1px gray solid;
+}
+
+.spotlight{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotlight article{
+    flex: 1 1 auto;
+    border: 0.05em black solid;
+    padding: 1em 1em 5em 1em;
+}
+
+.spotlight article:last-child{
+    display: none;
+}
+
+.naviagation {
+    border: 0.5px gray solid;
+    justify-self: right;
+    grid-column: 4;
+    padding: 0.75rem;
+    display: block;
+}
+
+.naviagation a:first-child {
+    display: block;
+}
+
+.naviagation a{
+    display: none;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.naviagation a:visited{
+    color: yellow;
+}
+
+.responsive a{
+    display: block;
+}
+
+.menu div{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.highlight{
+    background-color: lightgray;
+}
+
+.siteinfo2 a{
+    text-decoration: none;
+}
+
+.siteinfo2 a:visited{
+    color: yellow;
+}

@@ -1,0 +1,48 @@
+@media only screen and (min-width: 32.5em){
+
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .grid1, .grid4, .grid5, .grid6{
+        grid-column: span 2;
+
+    }
+
+    .grid4{
+        grid-row: 2;
+    }
+
+    .grid5{
+        grid-row: 3;
+    }
+
+    .grid6{
+        display: inline;
+        grid-row: 4;
+    }
+
+    .spotlight{
+        flex-direction: row;
+    }
+    
+    .spotlight article{
+        margin: 0.15em;
+    }
+
+    footer img{
+        display: block;
+        margin: 0px;
+    }
+
+    .footgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .siteinfo1{
+        display: flex;
+        text-align: left;
+    }
+}
