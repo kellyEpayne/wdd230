@@ -107,6 +107,7 @@ footer img{
 .naviagation a{
     display: none;
     padding: 0.5rem;
+    color: yellow;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
