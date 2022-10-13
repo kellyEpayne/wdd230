@@ -82,13 +82,13 @@ footer img{
     flex-direction: column;
 }
 
-.spotlight article{
+.spotlight p{
     flex: 1 1 auto;
     border: 0.05em black solid;
     padding: 1em 1em 5em 1em;
 }
 
-.spotlight article:last-child{
+.spotlight p:last-child{
     display: none;
 }
 
