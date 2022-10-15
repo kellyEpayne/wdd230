@@ -45,11 +45,12 @@
     }
     
     .spotlight div{
-        font-weight: bold;
+        color: white;
         background-color: rgb(191,11,48);
     }
 
     .spotlight div:nth-child(2){
+        color: black;
         background-color: yellow;
     }
 
