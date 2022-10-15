@@ -39,11 +39,20 @@
     }
        
     .spotlight{
+        background-color: rgb(0,39,104);
         display: flex;
         flex-direction: column;
     }
     
-    .spotlight p:last-child{
+    .spotlight div{
+        background-color: rgb(191,11,48);
+    }
+
+    .spotlight div:nth-child(2){
+        background-color: yellow;
+    }
+
+    .spotlight div:last-child{
         display: inline;
     }
 
@@ -52,7 +61,7 @@
     }
 
     header img{
-        padding-left: 25px;
+        margin-left: 25px;
     }
     .naviagation{
         border: none;

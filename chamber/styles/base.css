@@ -7,9 +7,9 @@ main{
 }
 
 main div{
-    border: 0.05em black solid;
-    /*Place holding space */
-    padding: 1em 1em 10em 1em;
+    background-color: rgba(64,93,142);
+    color: white;
+    text-align: center;
 }
 
 .grid6{
@@ -20,8 +20,8 @@ header{
     display: grid;
     grid-template-columns: 100px 1fr 1fr 1fr;
     column-gap: 10px;
-    background-color: darkblue;
-    color: yellow;
+    background-color: rgb(0,39,104);
+    color: rgb(255,216,1);
     align-items: center;
     padding: 5px;
 }
@@ -45,19 +45,22 @@ header h2{
 
 .currentdate{
     border: 2px black solid;
-    background-color: darkred;
+    background-color: rgb(191,11,48);
+    text-shadow: 1px 1px black;
     text-align: center;
     grid-column: span 4;
 }
 
-header img{
+.logo{
     width: 75px;
     height: 75px;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 50px;
 }
 
 footer{
     font-family: 'Poppins', sans-serif;
-    background-color: darkblue;
+    background-color: rgb(0,39,104);
     color: yellow;
     padding: 0.75rem;
     text-align: center;
@@ -69,6 +72,8 @@ footer img{
     margin-right: auto;
     width: 100px;
     height: 100px;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 50px;
 }
 
 .copyright{
@@ -82,13 +87,14 @@ footer img{
     flex-direction: column;
 }
 
-.spotlight p{
+.spotlight div{
     flex: 1 1 auto;
     border: 0.05em black solid;
-    padding: 1em 1em 5em 1em;
+    background-color: lightgray;
+    color: black;
 }
 
-.spotlight p:last-child{
+.spotlight div:last-child{
     display: none;
 }
 
@@ -107,7 +113,7 @@ footer img{
 .naviagation a{
     display: none;
     padding: 0.5rem;
-    color: yellow;
+    color: rgb(255,216,1);
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
@@ -115,22 +121,16 @@ footer img{
 }
 
 .naviagation a:visited{
-    color: yellow;
+    color: inherit;
+}
+
+.naviagation a:hover{
+    background-color: rgb(255,216,1);
+    color: rgb(0,39,104);
 }
 
 .responsive a{
     display: block;
-}
-
-.menu div{
-    width: 20px;
-    height: 3px;
-    background-color: white;
-    margin: 5px 0;
-}
-
-.highlight{
-    background-color: lightgray;
 }
 
 .siteinfo2 a{
@@ -140,4 +140,47 @@ footer img{
 
 .siteinfo2 a:visited{
     color: yellow;
+}
+
+.hero{
+    min-height: 200px;
+    text-align: left;
+    color: black;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/hero.jpeg);
+}
+
+.grid1 button{
+    float: right;
+    opacity: .75;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+.info{
+    margin: 0px 12px 0px 12px;
+    border-top: 1px white solid;
+}
+
+.topweather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topweather img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid3 .info{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid6 button{
+    margin-top: 25px;
+    width: 80%;
 }
