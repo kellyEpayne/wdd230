@@ -51,6 +51,12 @@ header h2{
     grid-column: span 4;
 }
 
+#meetinginvite{
+    display: none;
+    text-align: center;
+    grid-column: span 4;
+}
+
 .logo{
     width: 75px;
     height: 75px;
