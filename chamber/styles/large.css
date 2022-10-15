@@ -45,7 +45,7 @@
     }
     
     .spotlight div{
-        color: white;
+        font-weight: bold;
         background-color: rgb(191,11,48);
     }
 
