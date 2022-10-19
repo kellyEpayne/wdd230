@@ -70,22 +70,7 @@ let currentDate = document.querySelector('.currentdate').textContent = `${day}, 
 
 const invite = document.getElementById('meetinginvite');
 
-switch (day){
-    case "Sunday":
-        break;
-    case "Monday":
-        invite.style.display = "block";
-        break;
-    case "Tuesday":
-        invite.style.display = "block";
-        break;        
-    case "Wednesday":
-        break;
-    case "Thursday":
-        break;
-    case "Friday":
-        break;
-    case "Saturday":
-        break;
-}
 
+if (day == "Monday" || day == "Tuesday"){
+    invite.style.display = "block";
+}
