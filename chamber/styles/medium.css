@@ -76,8 +76,7 @@
     }
 
     .imgSection img:hover{
-        filter: invert;
-        transform: scale(-1);
+        filter: sepia;
     }
 
     .discspotlight{
