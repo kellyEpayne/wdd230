@@ -76,7 +76,7 @@
     }
 
     .imgSection img:hover{
-        filter: invert();
+        filter: invert;
         transform: scale(-1);
     }
 
