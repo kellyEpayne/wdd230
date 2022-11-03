@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border: thin solid black;
+    background-color: thistle;
+}
+
+caption{
+    background-color: palevioletred;
+}
+
+th, td{
+    border: thin solid black;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
