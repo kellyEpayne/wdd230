@@ -1,16 +1,19 @@
 table{
-    width: 100%;
+    margin: 10px auto;
+    width: 95%;
     border: thin solid black;
-    background-color: thistle;
+    border-collapse:collapse;
     text-align: center;
 }
 
 caption{
     background-color: palevioletred;
+    padding: 0.5em;
 }
 
 th, td{
     border: thin solid black;
+    padding: 0.5em;
 }
 
 tr:nth-child(even){
@@ -19,4 +22,16 @@ tr:nth-child(even){
 
 tr:nth-child(odd){
     background-color: white;
+}
+
+@media only screen and (min-width: 32.5em){
+    caption{
+        background-color: lightseagreen;
+    }
+}
+
+@media only screen and (min-width: 65em){
+    caption{
+        background-color: thistle;
+    }
 }
