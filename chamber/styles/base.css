@@ -1,9 +1,12 @@
 main{
+    padding: 0.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainpage{
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
-    padding: 0.5em;
-    font-family: 'Raleway', sans-serif;
 }
 
 main div{
@@ -225,4 +228,57 @@ footer img{
 
 .discspotlight div:last-child{
     display: inline;
+}
+
+.thanks{
+    text-align: center;
+}
+
+.joinform label{
+    display: block;
+}
+
+#placetime{
+    display: none;
+}
+
+.joinform fieldset{
+    margin: 2rem 0;
+    border: 2px solid rgb(191,11,48);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+.joinform fieldset:nth-child(2){
+    border-color: rgb(255,216,1);
+}
+
+.joinform legend{
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+.joinform label.top{
+    display: block;
+    padding-top: 1rem;
+}
+
+.joinform label.top input{
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.joinform label.sbs{
+    display: block;
+    padding: .75rem 0;
+}
+
+.formsubmit{
+    border: none;
+    background-color: rgb(0,39,104);
+    color: white;
+    width: 96%;
+    max-width: 20rem;
+    border-radius: 2rem;
 }

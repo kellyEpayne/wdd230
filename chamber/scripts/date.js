@@ -70,6 +70,7 @@ let currentDate = document.querySelector('.currentdate').textContent = `${day}, 
 
 const invite = document.getElementById('meetinginvite');
 
+let formTime = document.getElementById('placetime').value = date;
 
 if (day == "Monday" || day == "Tuesday"){
     invite.style.display = "block";

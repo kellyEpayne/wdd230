@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mock Colorado Chamber of Commerce</title>
+        <meta name="viewport" content="width=device-width">
+        <meta
+        name="description"
+        content="The main page for Mock Colorado Chamber of Commerce">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/colorado-flag-logo.webp" alt="Colorados state flag in the shape of a circle">
+        <div>
+            <h1>Mock Colorado</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/">
+                <img src="images/Instagram_Glyph_Gradient.png" alt="Instagram Logo">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="images/f_logo_RGB-Blue_58.png" alt="Facebook Logo">
+            </a>
+        </div>
+        <nav class="naviagation">
+            <a class="menu" href="#">☰</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="currentdate">Temp</div>
+        <div id="meetinginvite">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    </header>
+
+    <main>
+        <h2>Join the Colorado Chamber of Commerce</h2>
+        <form method="get" action="thankyou.html" class="joinform">
+            <fieldset class="formgrid1">
+                <legend>Personal Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="example@email.com" required></label>
+                <label class="top">Phone Number*<input type="tel" name="tel" required></label>
+            </fieldset>
+            <fieldset class="formgrid2">
+                <legend>Business Information</legend>
+                <label class="top">Title<input type="text" name="title" pattern="[A-Za-z/-/ ]{7,99}"></label>
+                <label class="top">Business Name*<input type="text" name="title" required></label>
+                <label class="top">Business Description<input type="text" name="description"></label>
+            </fieldset>
+            <fieldset class="formgrid3">
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio">NP Membership</label>
+                <label class="sbs"><input type="radio">Bronze Membership</label>
+                <label class="sbs"><input type="radio">Silver Membership</label>
+                <label class="sbs"><input type="radio">Gold Membership</label>
+            </fieldset>
+            <input id="placetime" type="time" name="date">
+            <input class="formsubmit formgrid4" type="submit" value="Join Chamber!">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footgrid">
+            <div class="siteinfo1">
+                <img src="images/colorado-flag-logo.webp" alt="Colorados state flag in the shape of a circle">
+                <div>
+                <h3>Mock Colorado Chamber of Commerce</h3>
+                <address>Address</address>
+                </div>
+            </div>
+            <div class="siteinfo2">
+                <p>Email</p>
+                <p>Phone number</p>
+                <a href="https://www.google.com/maps">Location Map</a>            
+            </div>
+        </div>    
+        <div class="copyright">temp</div>
+    </footer>
+    <script src="scripts/copyright.js"></script>
+    <script src="scripts/Menu.js"></script>
+    <script src="scripts/date.js"></script>
+
+</body>
+
+</html>
