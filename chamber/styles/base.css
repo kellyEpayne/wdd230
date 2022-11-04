@@ -282,3 +282,6 @@ footer img{
     max-width: 20rem;
     border-radius: 2rem;
 }
+.hidden{
+    display: none;
+}
