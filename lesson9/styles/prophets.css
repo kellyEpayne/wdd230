@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.cards section{
+    background-color: lightseagreen;
+    border: 5px solid darkblue;
+}
+
+.cards section h2{
+    color: darkblue;
+}
+
+.cards section p{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cards section img{
+    max-width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (min-width: 32.5em){
+    .cards section{
+        background-color: rgb(144, 238, 144, 0.5);
+        border-color: darkgreen;
+    }
+
+    .cards section h2{
+        color: darkgreen;
+    }
+}
+
+@media only screen and (min-width: 65em){
+    .cards section{
+        background-color: lightgoldenrodyellow;
+        border-color: darkgoldenrod;
+    }
+
+    .cards section h2{
+        color: darkgoldenrod;
+    }
+}

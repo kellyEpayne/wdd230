@@ -1,7 +1,8 @@
 body{
-    padding-left: 100px;
-    padding-right: 100px;
+    max-width: 80%;
+    margin: auto;
     font-family: 'Dancing Script', cursive;
+    font-size: 1.25em;
 }
 
 header{

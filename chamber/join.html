@@ -57,16 +57,21 @@
             </fieldset>
             <fieldset class="formgrid2">
                 <legend>Business Information</legend>
-                <label class="top">Title<input type="text" name="title" pattern="[A-Za-z/-/ ]{7,99}"></label>
+                <label class="top">Title<input type="text" name="title" pattern="[A-Za-z- ]{7,99}"></label>
                 <label class="top">Business Name*<input type="text" name="title" required></label>
                 <label class="top">Business Description<input type="text" name="description"></label>
             </fieldset>
             <fieldset class="formgrid3">
                 <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio">NP Membership</label>
-                <label class="sbs"><input type="radio">Bronze Membership</label>
-                <label class="sbs"><input type="radio">Silver Membership</label>
-                <label class="sbs"><input type="radio">Gold Membership</label>
+                
+                <label class="sbs"><input type="radio" name="level">NP Membership - Cost: Free</label>
+                <p>Access to all member benefites. We support our local Non profits!</p>
+                <label class="sbs"><input type="radio" name="level">Bronze Membership - Cost: $100</label>
+                <p>Benefites: Membership training and news letters about upcoming events.</p>
+                <label class="sbs"><input type="radio" name="level">Silver Membership - Cost: $250</label>
+                <p>Benefites: All Bronze level benefites and event discounts.</p>
+                <label class="sbs"><input type="radio" name="level">Gold Membership - Cost: $500</label>
+                <p>Benefites: All Silver level benefites and home page advertising.</p>
             </fieldset>
             <label class="hidden"><input id="placetime" type="time" name="date"></label>
             <input class="formsubmit formgrid4" type="submit" value="Join Chamber!">
