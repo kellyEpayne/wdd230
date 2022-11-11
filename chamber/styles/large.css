@@ -156,4 +156,26 @@
         grid-column: span 2;
         justify-self: center;
     }
+
+    .dirGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .dirGrid section{
+        border-color: rgb(191,11,48);
+        border-width: 3px;
+    }
+
+    .dirGrid section:nth-child(5){
+        border-color: rgb(255,216,1);
+    }
+
+    .dirGrid section:nth-child(6){
+        border-color: transparent;
+    }
+
+    .dirList section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 2em;
+    }
 }

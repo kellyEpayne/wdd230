@@ -1,0 +1,84 @@
+{
+    "businesses": [
+        {
+            "name" : "Dragon Treasure",
+            "address" : "576 Kokopelli Boulevard Fruita CO 81524",
+            "phoneNumber" : "(970) 858-8655",
+            "url" : "https://dragontreasurecotogo.com/",
+            "image" : "images/businesses/dragonTreasure.png",
+            "level": 3
+        },
+
+        {
+            "name" : "St Julien Hotel & Spa",
+            "address" : "900 Walnut St Boulder, CO 80302",
+            "phoneNumber" : "(720) 406-9696",
+            "url" : "https://stjulien.com/",
+            "image" : "images/businesses/stJulien.svg",
+            "level": 0
+        },
+
+        {
+            "name" : "Weathercraft Co. of Colorado Springs",
+            "address" : "10755 Charter Oak Ranch Road Fountain, CO 80817",
+            "phoneNumber" : "(719) 382-8511",
+            "url" : "http://weathercraftroofing.com/",
+            "image" : "images/businesses/weatherCraft.jpg",
+            "level": 1
+        },
+
+        {
+            "name" : "Dogtopia of Woodmen Rd",
+            "address" : "765 Herbglen Court Colorado Springs, CO 80906",
+            "phoneNumber" : "(303) 552-1434",
+            "url" : "https://www.dogtopia.com/",
+            "image" : "images/businesses/dogTopia.svg",
+            "level": 4
+        },
+
+        {
+            "name" : "Munchies",
+            "address" : "550 Kokopelli Dr Fruita CO 81521",
+            "phoneNumber" : "(970) 858-0953",
+            "url" : "http://munchiesfruita.com/",
+            "image" : "images/businesses/munches.png",
+            "level": 3
+        },
+
+        {
+            "name" : "Great Wolf Lodge",
+            "address" : "9494 Federal Drive Colorado Springs, CO 80921",
+            "phoneNumber" : "(719) 599-9653",
+            "url" : "https://www.greatwolf.com/",
+            "image" : "images/businesses/greatWolfLodge.svg",
+            "level": 0
+        },
+
+        {
+            "name" : "Denver Charter Bus Company",
+            "address" : "1710 N Williams St #409 Denver, CO 80318",
+            "phoneNumber" : "(303) 495-2341",
+            "url" : "https://www.denvercharterbuscompany.com/",
+            "image" : "images/businesses/denverBus.png",
+            "level": 0
+        },
+        
+        {
+            "name" : "Mesa Mall",
+            "address" : "2424 US HWY 6 & 50 Grand Junction CO 81505",
+            "phoneNumber" : "(970) 242-0009",
+            "url" : "https://shopmesamall.com/",
+            "image" : "images/businesses/mesaMall.png",
+            "level": 2
+        },
+
+        {
+            "name" : "Lewis Roca",
+            "address" : "90 S Cascade Ave Ste 1100 Colorado Springs, CO 80903-1662",
+            "phoneNumber" : "(719) 386-3000",
+            "url" : "https://www.lewisroca.com/",
+            "image" : "images/businesses/lewisRoca.jpg",
+            "level": 0
+        }
+    ]
+}

@@ -63,7 +63,7 @@ header h2{
 .logo{
     width: 75px;
     height: 75px;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 15px 2px rgb(0,0,0, 0.75);
     border-radius: 50px;
 }
 
@@ -81,7 +81,7 @@ footer img{
     margin-right: auto;
     width: 100px;
     height: 100px;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 1px 1px 15px 2px rgb(0,0,0, 0.75);
     border-radius: 50px;
 }
 
@@ -110,7 +110,7 @@ footer img{
 .naviagation {
     border: 0.5px gray solid;
     justify-self: right;
-    grid-column: 4;
+    grid-column: 4; 
     padding: 0.75rem;
     display: block;
 }
@@ -284,4 +284,80 @@ footer img{
 }
 .hidden{
     display: none;
+}
+
+.dirGrid{
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: white;
+}
+
+.dirGrid section{
+    background-color: rgba(64,93,142);
+    border: 2px black solid;
+    margin-bottom: 1em;
+    border-radius: 2%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.dirGrid img{
+    max-width: 90%;
+}
+
+.dirGrid a{
+    color: white;
+}
+
+.dirGrid a:visited{
+    color: white;
+}
+
+.dirGrid p:nth-child(2){
+    display: none;
+}
+
+.dirList{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+.dirList section:nth-child(odd){
+    background-color: aliceblue;
+}
+
+.dirList section:nth-child(even){
+    background-color: white;
+}
+
+.dirList img{
+    display: none;
+}
+
+.dirList section{
+    display: grid;
+    text-align: left;
+    align-items: baseline;
+}
+
+.dirbuttons{
+    background-color: white;
+    font-size: 2em;
+    color: rgb(0,39,104);
+}
+
+.dirGridTog, .dirListTog{
+    background-color: transparent;
+    margin: 0.5em;
+    border-color: rgb(0,39,104);
+}
+
+.dirGridTog:hover, .dirListTog:hover{
+    background-color: lightblue;
+}
+
+.center{
+    text-align: center;
 }
