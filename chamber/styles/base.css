@@ -107,6 +107,19 @@ footer img{
     display: none;
 }
 
+.spotlight img{
+    margin-top: 0.5em;
+    max-width: 90%;
+}
+
+.spotlight a{
+    color: black;
+}
+
+.spotlight a:visited{
+    color: black;
+}
+
 .naviagation {
     border: 0.5px gray solid;
     justify-self: right;
@@ -204,6 +217,19 @@ footer img{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
+.credit{
+    grid-column: span 2;
+}
+
+.credit a{
+    color: white;
+}
+
+.credit a:visited{
+    color: white;
+}
+
 
 .grid6 button{
     margin-top: 10px;
