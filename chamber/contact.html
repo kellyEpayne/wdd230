@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <title>Mock Colorado Chamber of Commerce</title>
         <meta name="viewport" content="width=device-width">
         <meta
         name="description"
-        content="The directory page for Mock Colorado Chamber of Commerce">
+        content="The contact page for Mock Colorado Chamber of Commerce">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,30 +37,48 @@
                 <a class="menu" href="#">☰</a>
                 <a href="index.html">Home</a>
                 <a href="discover.html">Discover</a>
+                <a href="directory.html">Directory</a>
                 <a href="join.html">Join</a>
-                <a href="#">Contact</a>
             </nav>
             <div class="currentdate">Temp</div>
             <div id="meetinginvite">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
         </header>
+        
+        <main class="contactmain">
 
-        <main>
-            <h2 class="center">Linked wireframes</h2>
-            <h3>Directory wireframes</h3>
-            <ul>
-                <li><a href="https://wireframe.cc/lvsHua">Desktop</a></li>
-                <li><a href="https://wireframe.cc/TBCl30">Tablet</a></li>
-                <li><a href="https://wireframe.cc/0g34U6">Phone</a></li>
-            </ul>
+            <h1 class="contactTitle">Contact Mock Colorado Chamber of Commerce</h1>
+
+            <div class="contactinfo">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <address>Address: 1600 Broadway, Suite 1000 Denver, CO 80202-4935</address>
+                <h3>Phone</h3>
+                <p>(303)831-7411</p>
+                <h3>Fax</h3>
+                <p>303)860-1439</p>
+            </div>
+
+            <div>
+
+                <h2>Contact Form</h2>
+                <form method="get" class="contactform">
+                    <fieldset class="inconform">
+                        <label class="top">Name*<input type="text" name="name" required></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="example@email.com" required></label>
+                        <label class="top">Your Message*<textarea name="message" rows="5" cols="20" placeholder="What is your question or concern?"></textarea></label>
+                    </fieldset>
+                    <input class="formsubmit" type="submit" value="Submit">
+                </form>
+            
+            </div>
         </main>
-
         <footer>
             <div class="footgrid">
                 <div class="siteinfo1">
                     <img src="images/colorado-flag-logo.webp" alt="Colorados state flag in the shape of a circle">
                     <div>
-                    <h3>Mock Colorado Chamber of Commerce</h3>
-                    <address>Address: 1600 Broadway, Suite 1000 Denver, CO 80202-4935</address>
+                        <h3>Mock Colorado Chamber of Commerce</h3>
+                        <address>Address: 1600 Broadway, Suite 1000 Denver, CO 80202-4935</address>
                     </div>
                 </div>
                 <div class="siteinfo2">
@@ -69,13 +86,14 @@
                     <p>Fax: (303)860-1439</p>
                     <a href="https://www.google.com/maps/place/1600+Broadway+UNIT+1000,+Denver,+CO+80202/@39.742065,-104.987039,17z/data=!3m1!4b1!4m5!3m4!1s0x876c78d5ea9846d7:0xb527b000fe4f57cf!8m2!3d39.742065!4d-104.987039">
                         Where we are!</a>            
-                </div>
-            </div>    
-            <div class="copyright">temp</div>
-        </footer>
-        <script src="scripts/copyright.js"></script>
-        <script src="scripts/Menu.js"></script>
-        <script src="scripts/date.js"></script>
-    </body>
+                    </div>
+                </div>    
+                <div class="copyright">temp</div>
+            </footer>
 
+            <script src="scripts/copyright.js"></script>
+            <script src="scripts/Menu.js"></script>
+            <script src="scripts/date.js"></script>
+
+    </body>
 </html>

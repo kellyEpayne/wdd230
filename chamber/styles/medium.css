@@ -89,4 +89,21 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 1em;
     }
+
+    .contactmain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contactTitle{
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .grid6 button{
+        margin-top: 25%;
+    }
 }

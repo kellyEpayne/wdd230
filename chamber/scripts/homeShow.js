@@ -30,7 +30,7 @@ function spotlight(business){
 }
 
 function limit(business){
-    return business.level >= 3
+    return business.level >= 2
 }
 
 function shuffle(array){

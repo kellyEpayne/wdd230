@@ -157,7 +157,6 @@ footer img{
 
 .siteinfo2 a{
     color: yellow;
-    text-decoration: none;
 }
 
 .siteinfo2 a:visited{
@@ -221,15 +220,6 @@ footer img{
 .credit{
     grid-column: span 2;
 }
-
-.credit a{
-    color: white;
-}
-
-.credit a:visited{
-    color: white;
-}
-
 
 .grid6 button{
     margin-top: 10px;
@@ -386,4 +376,35 @@ footer img{
 
 .center{
     text-align: center;
+}
+
+.inconform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform label input, .contactform label textarea{
+    display: block;
+}
+
+.contactform label{
+    margin-top: 1em;
+}
+
+.contactform .formsubmit{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contactinfo h3{
+    margin-top: 10%;
+}
+
+.links{
+    color: white;
+}
+
+.links:visited{
+    color: white;
 }
