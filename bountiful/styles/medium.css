@@ -1,0 +1,83 @@
+@media only screen and (min-width: 32.5em){
+    /* --------- Header ------------ */
+
+    header{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .socials{
+        grid-column: 3/4;
+        justify-self: end;
+    }
+
+    .navigation{
+        grid-column: 2/3;
+        justify-self: center;
+    }
+
+    /* --------- Navigation -------- */
+
+    #menu{
+        display: none;
+    }
+
+    .dropdown{
+        display: flex;
+    }
+
+    /* --------- Footer ------------ */
+
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* --------- Home Grid --------- */
+
+    .homegrid{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .grid1{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .grid2{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .grid3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .grid4{
+        grid-column: 1/3;
+    }
+
+    /* ------------ Fresh Body --------- */
+    
+    .freshBody{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .freshForm{
+        min-width: 30%;
+        margin-bottom: 0;
+    }
+
+    .submittedDrink{
+        min-width: 50%;
+    }
+
+    /* ----------- About us ------------*/
+    .aboutusMain{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

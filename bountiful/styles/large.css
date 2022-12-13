@@ -1,0 +1,28 @@
+@media only screen and (min-width: 65em){
+ /* ------- product grid ---------- */
+ 
+ .productgrid{
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .product3{
+    display: block;
+ }
+
+ .product6{
+    display: block;
+ }
+
+ .product9{
+    display: block;
+ }
+
+ /* ------- about us-------*/
+
+   .aboutusMain{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1em;
+   }
+}

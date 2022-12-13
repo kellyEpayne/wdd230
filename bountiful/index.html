@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utd-8">
+    <title>Bountiful Foods</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+    content="The main page for Bountiful Foods">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">   
+            <img src="images/bountifulFoods.png">
+        </a>
+        <nav class="navigation">
+            <a id="menu" href="#">☰</a>
+            <div class="dropdown">
+                <a href="index.html">Home</a>
+                <a href="fresh.html">Fresh</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+        <div class="socials">
+            <a><img src="images/social/Twitter social icons - circle - blue.svg"></a>
+            <a><img src="images/social/Instagram_Glyph_Gradient_RGB.svg"></a>
+            <a><img src="images/social/f_logo_RGB-Blue_58.png"></a>
+        </div>
+    </header>
+
+    <main class="homegrid">
+
+        <div class="grid1 productgrid">
+            <div class="product1">
+                <img src="images/fruits/pexels-lisa-fotios-1046350.jpg">
+            </div>
+
+            <div class="product2">
+                <img src="images/fruits/pexels-oleksandr-pidvalnyi-322483.jpg">
+            </div>
+
+            <div class="product3">
+                <img src="images/fruits/pexels-pixabay-162689.jpg">
+            </div>
+
+            <div class="product4">
+                <img src="images/vegatables/pexels-jievani-8185497.jpg">
+            </div>
+
+            <div class="product5">
+                <img src="images/vegatables/pexels-markus-spiske-1268101.jpg">
+            </div>
+
+            <div class="product6">
+                <img src="images/vegatables/pexels-pixabay-257794.jpg">
+            </div>
+
+            <div class="product7">
+                <img src="images/drinks/pexels-designbyja-2109099.jpg">
+            </div>
+
+            <div class="product8">
+                <img src="images/drinks/pexels-sebastian-coman-photography-3625372.jpg">
+            </div>
+            
+            <div class="product9">
+                <img src="images/drinks/pexels-roman-odintsov-4551975.jpg">
+            </div>
+
+        </div>
+
+        <div class="grid2">
+            <h2 class="underline">Order specialty drinks!</h2>
+            <h3 class="drunk">You have made: number drinks</h3>
+            <button onclick="window.location.href='fresh.html';">Create your own mix!</button>
+        </div>
+
+        <div class="grid3">
+
+                <h2>Weather</h2>
+                <h3 class="weatherLocation">Temp</h3>
+            <div class="topweather">
+                <img class="weatherIcon" src="images/Placeholder.png" alt="Placeholder image">
+                <p><span id="tempature"></span>°F</p>
+                <p class="weatherType">Current Weather: </p>
+                <p class="humidity">Humidity: </p>
+            </div>
+
+            <div class="info">
+                <p class="weatherday1">Day 1</p>
+                <p class="weatherday2">Day 2</p>
+                <p class="weatherday3">Day 3</p>
+                <p class="credit">Weather info provided by: <a class="links" href="https://openweathermap.org/">openweathermap.org</a></p>
+            </div>
+
+        </div>
+
+        <div class="grid4">
+            <h2 class="underline">Where we are from!</h2>
+            <p>We come from the costal town of Carlsbad California</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h3>Contact us!</h3>
+            <p>Phone number: (999)999-9999</p>
+            <p>Email: BountifulFoods@gmail.com</p>
+            <a href="resources.html">Resources</a>
+        </div>
+        <div class="copyright info">temp</div>
+    </footer>
+    
+    <script src="scripts/Menu.js"></script>
+    <script src="scripts/copyright.js"></script>
+    <script src="scripts/numDrinks.js"></script>
+
+</body>
+
+</html>

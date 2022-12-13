@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utd-8">
+    <title>Bountiful Foods</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+    content="The main page for Bountiful Foods">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">   
+            <img src="images/bountifulFoods.png">
+        </a>
+        <nav class="navigation">
+            <a id="menu" href="#">☰</a>
+            <div class="dropdown">
+                <a href="index.html">Home</a>
+                <a href="fresh.html">Fresh</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+        <div class="socials">
+            <a><img src="images/social/Twitter social icons - circle - blue.svg"></a>
+            <a><img src="images/social/Instagram_Glyph_Gradient_RGB.svg"></a>
+            <a><img src="images/social/f_logo_RGB-Blue_58.png"></a>
+        </div>
+    </header>
+
+    <main class="freshBody">
+        <form class="freshForm" action="" method="dialog">
+            <h2 class="underline">Place your order</h2>
+            <fieldset class="customerInfo">
+                <legend>Customer Info</legend>
+                <label>First Name*<input id="firstName" type="text" name="fname" required></label>
+                <label>Email*<input id="email" type="email" name="email" placeholder="example@email.com" required></label>
+                <label>Phone Number*<input id="phoneNumber" type="tel" name="tel" placeholder="(000)000-0000"required></label>
+            </fieldset>
+            <fieldset class="freshFruit">
+                <legend>Fruit Choice</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <textarea id="instructions"></textarea>
+            </fieldset>
+            <input class="formSubmit" type="submit" value="Place Order">
+        </form>
+        <div class="submittedDrink">
+            <div>
+                <h2 class="underline">Your order</h2>
+                <p id="orderN">Name: </p>
+                <p id="orderE">Email: </p>
+                <p id="orderP">Phone Number: </p>
+                <p id="orderF">Fruit Choices:</p>
+                <p id="orderS">Special Instructions: </p>
+            </div>
+            <div class="subHalf">
+            </div>
+            <div>
+                <h3>Nutrition:</h3>
+                <p id="carbs">Carbohydrates: </p>
+                <p id="protein">Proteins: </p>
+                <p id="fat">Fats: </p>
+                <p id="sugar">Sugars: </p>
+                <p id="cals">Calories: </p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="contact">
+            <h3>Contact us!</h3>
+            <p>Phone number: (999)999-9999</p>
+            <p>Email: BountifulFoods@gmail.com</p>
+            <a href="resources.html">Resources</a>
+        </div>
+        <div class="copyright info">temp</div>
+    </footer>
+    
+    <script src="scripts/Menu.js"></script>
+    <script src="scripts/copyright.js"></script>
+    <script src="scripts/fruitChoice.js"></script>
+    <script src="scripts/drinkOrder.js"></script>
+
+</body>
+
+</html>
