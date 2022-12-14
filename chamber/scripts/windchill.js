@@ -1,5 +1,5 @@
 const apiURL = 
-    'https://api.openweathermap.org/data/2.5/weather?q=Denver&units=imperial&APPID=83ce386cabbd9497aa668a6ee115617e';
+    'https://api.openweathermap.org/data/2.5/weather?q=Denver&units=imperial&APPID=92d767e67362eee22cfcd0fe88f8ac77';
 
 const htmlWindChill = document.getElementById("windchill");
 const htmlTemp = document.getElementById("tempature");

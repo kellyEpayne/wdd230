@@ -13,10 +13,16 @@ function submitted(){
     let htmlFruit3 = document.getElementById('fruit3');
     let htmlInstruction = document.getElementById('instructions');
 
+    let date = new Date();
+    let dayF = date.getDate();
+    let monthF = date.getMonth() + 1;
+    let yearF = date.getFullYear();
+
     document.querySelector('#orderN').textContent = `Name: ${htmlFirstName.value}`;
     document.querySelector('#orderE').textContent = `Email: ${htmlEmail.value}`;
     document.querySelector('#orderP').textContent = `Phone Number: ${htmlPhoneNumber.value}`;
     document.querySelector('#orderS').textContent = `Special Instructions: ${htmlInstruction.value}`;
+    document.querySelector('#orderD').textContent = `Date: ${monthF}/${dayF}/${yearF}`
 
     placingFruits([htmlFruit1, htmlFruit2, htmlFruit3]);
 

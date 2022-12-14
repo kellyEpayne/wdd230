@@ -4,8 +4,10 @@
     --bodyColor: #DDFFFF;
     --headertextColor: #FFFFFF;
     --textColor: #FFFFFF;
+    --textColor2: #000000;
     --divColor1: #DC136C;
     --divColor2: #249D8F;
+    --divColor3: #1a746a;
     --buttonColor: #456789;
 }
 
@@ -139,7 +141,7 @@ footer a, footer a:visited{
 
 .grid4{
     grid-column: 1/3;
-    background-color: var(--divColor2);
+    background-color: var(--divColor3);
     border: 2.5px solid var(--divColor1);
 }
 
@@ -242,6 +244,7 @@ footer a, footer a:visited{
 .freshForm{
     background-color: var(--divColor2);
     border: 2.5px solid var(--divColor1);
+    color: var(--textColor2);
 }
 
 .freshForm fieldset{
@@ -304,6 +307,7 @@ footer a, footer a:visited{
 .aboutusWhoAreWe{
     background-color: var(--divColor2);
     border: 2.5px solid var(--divColor1);
+    color: var(--textColor2);
 }
 
 .aboutusOwner{
@@ -312,13 +316,13 @@ footer a, footer a:visited{
 }
 
 .aboutusContact{
-    background-color: var(--divColor2);
+    background-color: var(--divColor3);
     border: 2.5px solid var(--divColor1);
 }
 
 .aboutusHistory{
     background-color: var(--divColor1);
-    border: 2.5px solid var(--divColor2);
+    border: 2.5px solid var(--divColor3);
 }
 
 .aboutusOwnInner{
@@ -348,11 +352,11 @@ footer a, footer a:visited{
 
 .resourcesCredits{
     margin: 1em;
-    background-color: var(--headerHighlightColor);
+    background-color: var(--buttonColor);
     border: 2.5px solid var(--headerColor);
 }
 
-.resourcesCredits div{
+.resourcesImages div{
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 2em;
