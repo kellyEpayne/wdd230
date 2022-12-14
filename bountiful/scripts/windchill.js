@@ -1,5 +1,5 @@
 const apiURL = 
-    'http://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&appid=5ccb8b8305dded445c27bf520b905a29&cnt=4';
+    'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&appid=5ccb8b8305dded445c27bf520b905a29&cnt=4';
 
 
 const htmlWindChill = document.getElementById("windchill");
@@ -37,7 +37,7 @@ function displayWeather(data){
     currentWeather.textContent = `Current weather: ${desc}`;
     humidity.textContent= `Humidity: ${todaysWeather.main.humidity}`
     weatherLocation.textContent = `Location: Carlsbad`;
-    weatherIcon.setAttribute('src', `http://openweathermap.org/img/wn/${todaysWeather.weather[0].icon}.png`);
+    weatherIcon.setAttribute('src', `https://openweathermap.org/img/wn/${todaysWeather.weather[0].icon}.png`);
     weatherIcon.setAttribute('alt', `Icon of the current weather in Carlsbad which is ${desc}`);
 
     for(i=1; i < 4; i++){
