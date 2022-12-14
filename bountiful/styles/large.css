@@ -25,4 +25,15 @@
       grid-template-columns: 1fr 1fr;
       column-gap: 1em;
    }
+
+ /* ----------- Resources --------- */
+
+   .resourcesCredits img{
+      width: 450px;
+  }
+
+  #resourcesFounder{
+   width: 300px;
+   padding-right: 75px;
+}
 }

@@ -3,7 +3,7 @@
     --headerHighlightColor: #727D97;
     --bodyColor: #DDFFFF;
     --headertextColor: #FFFFFF;
-    --textColor: #000000;
+    --textColor: #FFFFFF;
     --divColor1: #DC136C;
     --divColor2: #249D8F;
     --buttonColor: #456789;
@@ -12,11 +12,18 @@
 body{
     text-align: center;
     background-color: var(--bodyColor);
+    color: var(--textColor);
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, footer{
     background-color: var(--headerColor);
     color: var(--headertextColor);
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Libre Baskerville', serif;
 }
 
 .underline{
@@ -187,6 +194,14 @@ footer a, footer a:visited{
     border-top: 1px var(--textColor) solid;
 }
 
+.info a{
+    color: var(--textColor);
+}
+
+.info a:visited{
+    color: var(--textColor);
+}
+
 /* ----------- Drinks --------- */
 
 .grid2{
@@ -201,6 +216,7 @@ footer a, footer a:visited{
     margin-right: 10%;
     margin-bottom: 1em;
     background-color: var(--buttonColor);
+    color: var(--textColor);
     border: none;
     border-radius: 2rem;
 }
@@ -295,6 +311,16 @@ footer a, footer a:visited{
     border: 2.5px solid var(--divColor2);
 }
 
+.aboutusContact{
+    background-color: var(--divColor2);
+    border: 2.5px solid var(--divColor1);
+}
+
+.aboutusHistory{
+    background-color: var(--divColor1);
+    border: 2.5px solid var(--divColor2);
+}
+
 .aboutusOwnInner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -302,14 +328,52 @@ footer a, footer a:visited{
     margin: 1em;
     justify-items: center;
     align-items: center;
+    text-align: start;
 }
 
 .aboutusOwnInner img{
     max-height: 300px;
 }
 
+.aboutusMain p {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.aboutusContact a:visited{
+    color: #FFFFFF;
+}
+
 /* ------ resources ---- */
 
 .resourcesCredits{
     margin: 1em;
+    background-color: var(--headerHighlightColor);
+    border: 2.5px solid var(--headerColor);
+}
+
+.resourcesCredits div{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+    align-items: center;
+}
+
+.resourcesCredits img{
+    width: 200px;
+    justify-self: right;
+}
+
+.resourcesCredits a{
+    justify-self: left;
+    color: var(--textColor);
+}
+
+.resourcesCredits a:visited{
+    color: var(--textColor);
+}
+
+#resourcesFounder{
+    width: 200px;
 }

@@ -80,4 +80,10 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    /* ----------- Resources --------- */
+
+    .resourcesCredits img{
+        width: 300px;
+    }
 }

@@ -2,11 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="utd-8">
+    <meta charset="utf-8">
     <title>Bountiful Foods</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description"
-    content="The main page for Bountiful Foods">
+    content="The fresh page for Bountiful Foods">
+    <link rel="shortcut icon" href="images/bountifulFoods.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -16,7 +20,7 @@
 <body>
     <header>
         <a href="index.html">   
-            <img src="images/bountifulFoods.png">
+            <img src="images/bountifulFoods.png" alt="Bountiful Foods Logo">
         </a>
         <nav class="navigation">
             <a id="menu" href="#">☰</a>
@@ -27,20 +31,20 @@
             </div>
         </nav>
         <div class="socials">
-            <a><img src="images/social/Twitter social icons - circle - blue.svg"></a>
-            <a><img src="images/social/Instagram_Glyph_Gradient_RGB.svg"></a>
-            <a><img src="images/social/f_logo_RGB-Blue_58.png"></a>
+            <a><img src="images/social/Twitter-social-icons-circle-blue.svg" alt="Twitter logo"></a>
+            <a><img src="images/social/Instagram_Glyph_Gradient_RGB.svg" alt="Instagram Logo"></a>
+            <a><img src="images/social/f_logo_RGB-Blue_58.png" alt="Facebook Logo"></a>
         </div>
     </header>
 
     <main class="freshBody">
-        <form class="freshForm" action="" method="dialog">
+        <form class="freshForm" method="dialog">
             <h2 class="underline">Place your order</h2>
             <fieldset class="customerInfo">
                 <legend>Customer Info</legend>
                 <label>First Name*<input id="firstName" type="text" name="fname" required></label>
                 <label>Email*<input id="email" type="email" name="email" placeholder="example@email.com" required></label>
-                <label>Phone Number*<input id="phoneNumber" type="tel" name="tel" placeholder="(000)000-0000"required></label>
+                <label>Phone Number*<input id="phoneNumber" type="tel" name="tel" placeholder="(000)000-0000" required></label>
             </fieldset>
             <fieldset class="freshFruit">
                 <legend>Fruit Choice</legend>
